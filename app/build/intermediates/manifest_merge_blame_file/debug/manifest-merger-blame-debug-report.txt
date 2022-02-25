@@ -1,0 +1,575 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.touchizen.drawerwithbottomnavigation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\gtu_project-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\gtu_project-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+13-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:10:5-65
+16-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:10:22-62
+17
+18    <application
+18-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:12:5-250:19
+19        android:allowBackup="true"
+19-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:18:9-40
+28        <activity
+28-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:19:9-23:61
+29            android:name="com.touchizen.drawerwithbottomnavigation.parking.B_BLOCK"
+29-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:20:13-44
+30            android:exported="false"
+30-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:21:13-37
+31            android:label="A Block"
+31-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:22:13-36
+32            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.Request_Parking" />
+32-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:23:13-58
+33        <activity
+33-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:24:9-28:61
+34            android:name="com.touchizen.drawerwithbottomnavigation.parking.A_BLOCK"
+34-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:25:13-44
+35            android:exported="false"
+35-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:26:13-37
+36            android:label="B Block"
+36-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:27:13-36
+37            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.Request_Parking" />
+37-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:28:13-58
+38        <activity
+38-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:29:9-34:52
+39            android:name="com.touchizen.drawerwithbottomnavigation.SettingActivity"
+39-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:30:13-44
+40            android:exported="false"
+40-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:31:13-37
+41            android:label="Setting"
+41-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:32:13-36
+42            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.ContactTeamCardActivity"
+42-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:33:13-66
+43            android:screenOrientation="portrait" />
+43-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:34:13-49
+44        <activity
+44-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:35:9-40:52
+45            android:name="com.touchizen.drawerwithbottomnavigation.Add_books_market"
+45-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:36:13-45
+46            android:exported="false"
+46-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:37:13-37
+47            android:label="Add Book"
+47-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:38:13-37
+48            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+48-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:39:13-66
+49            android:screenOrientation="portrait" />
+49-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:40:13-49
+50        <activity
+50-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:41:9-46:52
+51            android:name="com.touchizen.drawerwithbottomnavigation.Add_sports_market"
+51-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:42:13-46
+52            android:exported="false"
+52-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:43:13-37
+53            android:label="Add Sports"
+53-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:44:13-39
+54            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+54-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:45:13-66
+55            android:screenOrientation="portrait" />
+55-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:46:13-49
+56        <activity
+56-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:47:9-52:52
+57            android:name="com.touchizen.drawerwithbottomnavigation.Add_pets_market"
+57-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:48:13-44
+58            android:exported="false"
+58-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:49:13-37
+59            android:label="Add Pets"
+59-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:50:13-37
+60            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+60-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:51:13-66
+61            android:screenOrientation="portrait" />
+61-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:52:13-49
+62        <activity
+62-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:53:9-58:52
+63            android:name="com.touchizen.drawerwithbottomnavigation.Add_fashion_market"
+63-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:54:13-47
+64            android:exported="false"
+64-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:55:13-37
+65            android:label="Add Fashion"
+65-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:56:13-40
+66            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+66-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:57:13-66
+67            android:screenOrientation="portrait" />
+67-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:58:13-49
+68        <activity
+68-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:59:9-64:52
+69            android:name="com.touchizen.drawerwithbottomnavigation.Add_bikes_marekt"
+69-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:60:13-45
+70            android:exported="false"
+70-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:61:13-37
+71            android:label="Add Bikes"
+71-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:62:13-38
+72            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+72-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:63:13-66
+73            android:screenOrientation="portrait" />
+73-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:64:13-49
+74        <activity
+74-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:65:9-70:52
+75            android:name="com.touchizen.drawerwithbottomnavigation.Add_mobile_market"
+75-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:66:13-46
+76            android:exported="false"
+76-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:67:13-37
+77            android:label="Add Mobile"
+77-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:68:13-39
+78            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+78-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:69:13-66
+79            android:screenOrientation="portrait" />
+79-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:70:13-49
+80        <activity
+80-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:71:9-76:52
+81            android:name="com.touchizen.drawerwithbottomnavigation.Add_cars_market"
+81-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:72:13-44
+82            android:exported="false"
+82-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:73:13-37
+83            android:label="Add Cars"
+83-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:74:13-37
+84            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+84-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:75:13-66
+85            android:screenOrientation="portrait" />
+85-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:76:13-49
+86        <activity
+86-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:77:9-82:52
+87            android:name="com.touchizen.drawerwithbottomnavigation.Add_furniture_market"
+87-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:78:13-49
+88            android:exported="false"
+88-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:79:13-37
+89            android:label="Add Furniture"
+89-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:80:13-42
+90            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+90-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:81:13-66
+91            android:screenOrientation="portrait" />
+91-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:82:13-49
+92        <activity
+92-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:83:9-88:52
+93            android:name="com.touchizen.drawerwithbottomnavigation.Add_tennis_court"
+93-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:84:13-45
+94            android:exported="false"
+94-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:85:13-37
+95            android:label="Add Tennis Court facility"
+95-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:86:13-54
+96            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+96-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:87:13-65
+97            android:screenOrientation="portrait" />
+97-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:88:13-49
+98        <activity
+98-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:89:9-94:52
+99            android:name="com.touchizen.drawerwithbottomnavigation.add_theator_activity"
+99-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:90:13-49
+100            android:exported="false"
+100-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:91:13-37
+101            android:label="Add Theator facility"
+101-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:92:13-49
+102            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+102-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:93:13-65
+103            android:screenOrientation="portrait" />
+103-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:94:13-49
+104        <activity
+104-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:95:9-100:52
+105            android:name="com.touchizen.drawerwithbottomnavigation.Add_library_facility"
+105-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:96:13-49
+106            android:exported="false"
+106-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:97:13-37
+107            android:label="Add Library facility"
+107-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:98:13-49
+108            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+108-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:99:13-65
+109            android:screenOrientation="portrait" />
+109-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:100:13-49
+110        <activity
+110-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:101:9-106:52
+111            android:name="com.touchizen.drawerwithbottomnavigation.Request_Parking"
+111-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:102:13-44
+112            android:exported="false"
+112-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:103:13-37
+113            android:label="Request Parking"
+113-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:104:13-44
+114            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+114-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:105:13-63
+115            android:screenOrientation="portrait" />
+115-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:106:13-49
+116        <activity
+116-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:107:9-112:52
+117            android:name="com.touchizen.drawerwithbottomnavigation.DeliverAddVisitor"
+117-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:108:13-46
+118            android:exported="false"
+118-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:109:13-37
+119            android:label="Delivery Add Visitor"
+119-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:110:13-49
+120            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+120-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:111:13-63
+121            android:screenOrientation="portrait" />
+121-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:112:13-49
+122        <activity
+122-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:113:9-118:52
+123            android:name="com.touchizen.drawerwithbottomnavigation.Autocabvisitor"
+123-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:114:13-43
+124            android:exported="false"
+124-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:115:13-37
+125            android:label="Autocab Visitor"
+125-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:116:13-44
+126            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+126-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:117:13-63
+127            android:screenOrientation="portrait" />
+127-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:118:13-49
+128        <activity
+128-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:119:9-124:52
+129            android:name="com.touchizen.drawerwithbottomnavigation.ExceptedVisitor"
+129-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:120:13-44
+130            android:exported="false"
+130-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:121:13-37
+131            android:label="Expected Visitor"
+131-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:122:13-45
+132            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+132-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:123:13-63
+133            android:screenOrientation="portrait" />
+133-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:124:13-49
+134        <activity
+134-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:125:9-130:52
+135            android:name="com.touchizen.drawerwithbottomnavigation.DailyVisitorPage"
+135-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:126:13-45
+136            android:exported="false"
+136-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:127:13-37
+137            android:label="Expected Visitor"
+137-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:128:13-45
+138            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+138-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:129:13-63
+139            android:screenOrientation="portrait" />
+139-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:130:13-49
+140        <activity
+140-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:131:9-136:52
+141            android:name="com.touchizen.drawerwithbottomnavigation.add_common_plot"
+141-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:132:13-44
+142            android:exported="false"
+142-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:133:13-37
+143            android:label="Add CommonPlot facility"
+143-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:134:13-52
+144            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+144-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:135:13-65
+145            android:screenOrientation="portrait" />
+145-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:136:13-49
+146        <activity
+146-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:137:9-142:52
+147            android:name="com.touchizen.drawerwithbottomnavigation.add_game_zone_facilities"
+147-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:138:13-53
+148            android:exported="false"
+148-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:139:13-37
+149            android:label="Add GameZone facility"
+149-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:140:13-50
+150            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+150-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:141:13-65
+151            android:screenOrientation="portrait" />
+151-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:142:13-49
+152        <activity
+152-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:143:9-148:52
+153            android:name="com.touchizen.drawerwithbottomnavigation.add_auditarium"
+153-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:144:13-43
+154            android:exported="false"
+154-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:145:13-37
+155            android:label="Add Auditorium facility"
+155-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:146:13-52
+156            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+156-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:147:13-65
+157            android:screenOrientation="portrait" />
+157-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:148:13-49
+158        <activity
+158-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:149:9-154:52
+159            android:name="com.touchizen.drawerwithbottomnavigation.add_gym_facility"
+159-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:150:13-45
+160            android:exported="false"
+160-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:151:13-37
+161            android:label="Add GYM facility"
+161-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:152:13-45
+162            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+162-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:153:13-65
+163            android:screenOrientation="portrait" />
+163-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:154:13-49
+164        <activity
+164-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:155:9-160:52
+165            android:name="com.touchizen.drawerwithbottomnavigation.add_garden_facility"
+165-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:156:13-48
+166            android:exported="false"
+166-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:157:13-37
+167            android:label="Add Garden facility"
+167-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:158:13-48
+168            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+168-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:159:13-65
+169            android:screenOrientation="portrait" />
+169-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:160:13-49
+170        <activity
+170-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:161:9-166:52
+171            android:name="com.touchizen.drawerwithbottomnavigation.Complain_add"
+171-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:162:13-41
+172            android:exported="false"
+172-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:163:13-37
+173            android:label="Complain Add"
+173-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:164:13-41
+174            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.ComplaintCardActivity"
+174-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:165:13-64
+175            android:screenOrientation="portrait" />
+175-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:166:13-49
+176        <activity
+176-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:167:9-172:52
+177            android:name="com.touchizen.drawerwithbottomnavigation.ContactTeamCardActivity"
+177-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:168:13-52
+178            android:exported="false"
+178-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:169:13-37
+179            android:label="Contact Team"
+179-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:170:13-41
+180            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+180-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:171:13-55
+181            android:screenOrientation="portrait" />
+181-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:172:13-49
+182        <activity
+182-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:173:9-178:52
+183            android:name="com.touchizen.drawerwithbottomnavigation.GalleryCardActivity"
+183-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:174:13-48
+184            android:exported="false"
+184-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:175:13-37
+185            android:label="Gallary"
+185-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:176:13-36
+186            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+186-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:177:13-55
+187            android:screenOrientation="portrait" />
+187-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:178:13-49
+188        <activity
+188-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:179:9-184:52
+189            android:name="com.touchizen.drawerwithbottomnavigation.MyProfileCardActivity"
+189-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:180:13-50
+190            android:exported="false"
+190-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:181:13-37
+191            android:label="My Profile"
+191-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:182:13-39
+192            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+192-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:183:13-55
+193            android:screenOrientation="portrait" />
+193-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:184:13-49
+194        <activity
+194-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:185:9-190:52
+195            android:name="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+195-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:186:13-52
+196            android:exported="false"
+196-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:187:13-37
+197            android:label="Market Place"
+197-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:188:13-41
+198            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+198-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:189:13-55
+199            android:screenOrientation="portrait" />
+199-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:190:13-49
+200        <activity
+200-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:191:9-196:52
+201            android:name="com.touchizen.drawerwithbottomnavigation.SosCardActivity"
+201-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:192:13-44
+202            android:exported="false"
+202-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:193:13-37
+203            android:label="SOS"
+203-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:194:13-32
+204            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+204-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:195:13-55
+205            android:screenOrientation="portrait" />
+205-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:196:13-49
+206        <activity
+206-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:197:9-202:52
+207            android:name="com.touchizen.drawerwithbottomnavigation.ServiceProviderCardActivity"
+207-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:198:13-56
+208            android:exported="false"
+208-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:199:13-37
+209            android:label="Service Provider"
+209-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:200:13-45
+210            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+210-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:201:13-55
+211            android:screenOrientation="portrait" />
+211-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:202:13-49
+212        <activity
+212-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:203:9-208:52
+213            android:name="com.touchizen.drawerwithbottomnavigation.EmergencyNumberCardActivity"
+213-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:204:13-56
+214            android:exported="false"
+214-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:205:13-37
+215            android:label="Emergency Numbers"
+215-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:206:13-46
+216            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+216-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:207:13-55
+217            android:screenOrientation="portrait" />
+217-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:208:13-49
+218        <activity
+218-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:209:9-214:52
+219            android:name="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+219-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:210:13-51
+220            android:exported="false"
+220-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:211:13-37
+221            android:label="Facilities"
+221-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:212:13-39
+222            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+222-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:213:13-55
+223            android:screenOrientation="portrait" />
+223-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:214:13-49
+224        <activity
+224-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:215:9-220:52
+225            android:name="com.touchizen.drawerwithbottomnavigation.ComplaintCardActivity"
+225-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:216:13-50
+226            android:exported="false"
+226-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:217:13-37
+227            android:label="Complaints"
+227-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:218:13-39
+228            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+228-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:219:13-55
+229            android:screenOrientation="portrait" />
+229-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:220:13-49
+230        <activity
+230-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:221:9-226:52
+231            android:name="com.touchizen.drawerwithbottomnavigation.ParkingCardActivity"
+231-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:222:13-48
+232            android:exported="false"
+232-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:223:13-37
+233            android:label="Parking"
+233-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:224:13-36
+234            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+234-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:225:13-55
+235            android:screenOrientation="portrait" />
+235-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:226:13-49
+236        <activity
+236-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:227:9-232:52
+237            android:name="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+237-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:228:13-49
+238            android:exported="false"
+238-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:229:13-37
+239            android:label="Visitor"
+239-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:230:13-36
+240            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+240-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:231:13-55
+241            android:screenOrientation="portrait" />
+241-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:232:13-49
+242        <activity
+242-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:233:9-238:52
+243            android:name="com.touchizen.drawerwithbottomnavigation.MemberCardActivity"
+243-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:234:13-47
+244            android:exported="false"
+244-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:235:13-37
+245            android:label="Members"
+245-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:236:13-36
+246            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+246-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:237:13-55
+247            android:screenOrientation="portrait" />
+247-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:238:13-49
+248        <activity
+248-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:239:9-249:20
+249            android:name="com.touchizen.drawerwithbottomnavigation.MainActivity"
+249-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:240:13-41
+250            android:label="@string/app_name"
+250-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:241:13-45
+251            android:screenOrientation="portrait"
+251-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:242:13-49
+252            android:theme="@style/AppTheme.NoActionBar" >
+252-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:243:13-56
+253            <intent-filter>
+253-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:244:13-248:29
+254                <action android:name="android.intent.action.MAIN" />
+254-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:245:17-69
+254-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:245:25-66
+255
+256                <category android:name="android.intent.category.LAUNCHER" />
+256-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:247:17-77
+256-->D:\gtu_project-main\app\src\main\AndroidManifest.xml:247:27-74
+257            </intent-filter>
+258        </activity>
+259
+260        <service
+260-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+261            android:name="com.google.firebase.components.ComponentDiscoveryService"
+261-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+262            android:directBootAware="true"
+262-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+263            android:exported="false" >
+263-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+264            <meta-data
+264-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+265                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+265-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+267            <meta-data
+267-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+268                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+268-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+269                android:value="com.google.firebase.components.ComponentRegistrar" />
+269-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+270        </service>
+271
+272        <provider
+272-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+273            android:name="com.google.firebase.provider.FirebaseInitProvider"
+273-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+274            android:authorities="com.touchizen.drawerwithbottomnavigation.firebaseinitprovider"
+274-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+275            android:directBootAware="true"
+275-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+276            android:exported="false"
+276-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+277            android:initOrder="100" />
+277-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+278
+279        <activity
+279-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+280            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+280-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+281            android:exported="false"
+281-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+282-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+283
+284        <meta-data
+284-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+285            android:name="com.google.android.gms.version"
+285-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+286            android:value="@integer/google_play_services_version" />
+286-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+287
+288        <provider
+288-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+289            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+289-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+290            android:authorities="com.touchizen.drawerwithbottomnavigation.lifecycle-process"
+290-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+291            android:exported="false"
+291-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+292            android:multiprocess="true" />
+292-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+293    </application>
+294
+295</manifest>

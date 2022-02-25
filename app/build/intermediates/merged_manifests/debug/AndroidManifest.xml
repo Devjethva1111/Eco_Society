@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.touchizen.drawerwithbottomnavigation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.parking.B_BLOCK"
+            android:exported="false"
+            android:label="A Block"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.Request_Parking" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.parking.A_BLOCK"
+            android:exported="false"
+            android:label="B Block"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.Request_Parking" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.SettingActivity"
+            android:exported="false"
+            android:label="Setting"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.ContactTeamCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_books_market"
+            android:exported="false"
+            android:label="Add Book"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_sports_market"
+            android:exported="false"
+            android:label="Add Sports"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_pets_market"
+            android:exported="false"
+            android:label="Add Pets"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_fashion_market"
+            android:exported="false"
+            android:label="Add Fashion"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_bikes_marekt"
+            android:exported="false"
+            android:label="Add Bikes"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_mobile_market"
+            android:exported="false"
+            android:label="Add Mobile"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_cars_market"
+            android:exported="false"
+            android:label="Add Cars"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_furniture_market"
+            android:exported="false"
+            android:label="Add Furniture"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_tennis_court"
+            android:exported="false"
+            android:label="Add Tennis Court facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_theator_activity"
+            android:exported="false"
+            android:label="Add Theator facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Add_library_facility"
+            android:exported="false"
+            android:label="Add Library facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Request_Parking"
+            android:exported="false"
+            android:label="Request Parking"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.DeliverAddVisitor"
+            android:exported="false"
+            android:label="Delivery Add Visitor"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Autocabvisitor"
+            android:exported="false"
+            android:label="Autocab Visitor"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.ExceptedVisitor"
+            android:exported="false"
+            android:label="Expected Visitor"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.DailyVisitorPage"
+            android:exported="false"
+            android:label="Expected Visitor"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_common_plot"
+            android:exported="false"
+            android:label="Add CommonPlot facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_game_zone_facilities"
+            android:exported="false"
+            android:label="Add GameZone facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_auditarium"
+            android:exported="false"
+            android:label="Add Auditorium facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_gym_facility"
+            android:exported="false"
+            android:label="Add GYM facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.add_garden_facility"
+            android:exported="false"
+            android:label="Add Garden facility"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.Complain_add"
+            android:exported="false"
+            android:label="Complain Add"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.ComplaintCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.ContactTeamCardActivity"
+            android:exported="false"
+            android:label="Contact Team"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.GalleryCardActivity"
+            android:exported="false"
+            android:label="Gallary"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.MyProfileCardActivity"
+            android:exported="false"
+            android:label="My Profile"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity"
+            android:exported="false"
+            android:label="Market Place"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.SosCardActivity"
+            android:exported="false"
+            android:label="SOS"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.ServiceProviderCardActivity"
+            android:exported="false"
+            android:label="Service Provider"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.EmergencyNumberCardActivity"
+            android:exported="false"
+            android:label="Emergency Numbers"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity"
+            android:exported="false"
+            android:label="Facilities"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.ComplaintCardActivity"
+            android:exported="false"
+            android:label="Complaints"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.ParkingCardActivity"
+            android:exported="false"
+            android:label="Parking"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity"
+            android:exported="false"
+            android:label="Visitor"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.MemberCardActivity"
+            android:exported="false"
+            android:label="Members"
+            android:parentActivityName="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.touchizen.drawerwithbottomnavigation.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.touchizen.drawerwithbottomnavigation.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.touchizen.drawerwithbottomnavigation.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

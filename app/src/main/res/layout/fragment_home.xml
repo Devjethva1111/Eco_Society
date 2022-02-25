@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_background"
+            android:layout_marginBottom="1dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_140sdp"
+                            android:id="@+id/card1">
+
+                                <com.smarteist.autoimageslider.SliderView
+                                    android:id="@+id/image_slider"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_140sdp"
+                                    app:sliderAnimationDuration="600"
+                                    app:sliderAutoCycleDirection="back_and_forth"
+                                    app:sliderAutoCycleEnabled="true"
+                                    app:sliderIndicatorAnimationDuration="600"
+                                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                                    app:sliderIndicatorMargin="15dp"
+                                    app:sliderIndicatorOrientation="horizontal"
+                                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                                    app:sliderIndicatorUnselectedColor="#FFF"
+                                    app:sliderScrollTimeInSec="2"
+                                    app:sliderStartAutoCycle="true"/>
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="4">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="457dp"
+                                    android:layout_below="@id/card1"
+                                    android:layout_marginTop="@dimen/_140sdp"
+                                    android:layout_marginRight="3dp"
+                                    android:layout_marginLeft="3dp">
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/membercard"
+                                            android:layout_width="114dp"
+                                            android:layout_height="110dp"
+                                            android:layout_marginLeft="3dp"
+                                            android:layout_marginTop="5dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            app:cardCornerRadius="@dimen/_5sdp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="@dimen/_55sdp"
+                                                    android:layout_height="@dimen/_50sdp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/member_image_logo" />
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="40dp"
+                                                    android:layout_marginTop="77dp"
+                                                    android:gravity="center"
+                                                    android:text="Members"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/visitorcard"
+                                            android:layout_height="110dp"
+                                            android:layout_toRightOf="@id/membercard"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_marginLeft="6dp"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_marginTop="5dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/visitor"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="Visitors"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/parkingcard"
+                                            android:layout_width="114dp"
+                                            android:layout_height="110dp"
+                                            android:layout_marginLeft="6dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginRight="3dp"
+                                            android:layout_toRightOf="@id/visitorcard"
+                                            android:backgroundTint="#E6BABEC6"
+                                            app:cardCornerRadius="@dimen/_5sdp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/parking_logo_image" />
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:layout_marginTop="83dp"
+                                                    android:gravity="center"
+                                                    android:text="Parking"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/complaintcard"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_below="@id/membercard"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_height="110dp"
+                                            android:layout_marginLeft="3dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/complain_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="Complaints"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/facilitiescard"
+                                            android:layout_below="@id/visitorcard"
+                                            android:layout_height="110dp"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_toRightOf="@id/complaintcard"
+                                            android:layout_marginLeft="6dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/facility_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="Facilities"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/emergencynumbercard"
+                                            android:layout_below="@id/parkingcard"
+                                            android:layout_height="110dp"
+                                            android:layout_toRightOf="@id/facilitiescard"
+                                            android:layout_marginLeft="6dp"
+                                            android:layout_marginRight="3dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:layout_marginBottom="@dimen/_3sdp"
+                                                    android:src="@drawable/emergency_logo"/>
+
+                                                <TextView
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="40dp"
+                                                    android:text="Emergency Number"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="75dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="13sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/serviceprovider"
+                                            android:layout_below="@id/complaintcard"
+                                            android:layout_height="110dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_marginLeft="3dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/serviceprovider_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="40dp"
+                                                    android:text="Service Provider"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="80dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="15sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/soscard"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_below="@id/facilitiescard"
+                                            android:layout_toRightOf="@id/serviceprovider"
+                                            android:layout_height="110dp"
+                                            android:layout_marginLeft="6dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/sos_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="SOS"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/marketplacecard"
+                                            android:layout_below="@id/emergencynumbercard"
+                                            android:layout_toRightOf="@id/soscard"
+                                            android:layout_height="110dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_marginRight="3dp"
+                                            android:layout_marginLeft="6dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/market_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="MarketPlace"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/myprofilecard"
+                                            app:cardCornerRadius="@dimen/_5sdp"
+                                            android:layout_below="@id/soscard"
+                                            android:layout_height="110dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_marginLeft="3dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/myprofile_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="My Profile"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp"
+                                                    />
+                                        </androidx.cardview.widget.CardView>
+
+                                        <androidx.cardview.widget.CardView
+                                            android:id="@+id/gallerycard"
+                                            android:layout_width="114dp"
+                                            android:layout_height="110dp"
+                                            android:layout_below="@id/soscard"
+                                            android:layout_marginLeft="6dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_marginTop="4dp"
+                                            android:layout_toRightOf="@id/myprofilecard"
+                                            app:cardCornerRadius="@dimen/_5sdp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/gallary" />
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:layout_marginTop="83dp"
+                                                    android:gravity="center"
+                                                    android:text="Gallery"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+
+
+                                        </androidx.cardview.widget.CardView>
+                                        <androidx.cardview.widget.CardView
+                                            android:layout_width="114dp"
+                                            android:id="@+id/contactteamcard"
+                                            app:cardCornerRadius="@dimen/_10sdp"
+                                            android:layout_below="@id/serviceprovider"
+                                            android:layout_toRightOf="@id/gallerycard"
+                                            android:layout_height="110dp"
+                                            android:layout_marginLeft="6dp"
+                                            android:backgroundTint="#E6BABEC6"
+                                            android:layout_marginRight="3dp"
+                                            android:layout_marginTop="4dp">
+
+                                                <de.hdodenhof.circleimageview.CircleImageView
+                                                    android:layout_width="60dp"
+                                                    android:layout_height="60dp"
+                                                    android:layout_gravity="center"
+                                                    android:src="@drawable/contactteam_logo"/>
+
+                                                <TextView
+
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="30dp"
+                                                    android:text="Contact Team"
+                                                    android:gravity="center"
+                                                    android:layout_marginTop="83dp"
+                                                    android:textColor="@color/black"
+                                                    android:textSize="16sp" />
+
+                                        </androidx.cardview.widget.CardView>
+
+
+
+
+                                </RelativeLayout>
+                        </LinearLayout>
+
+
+                </FrameLayout>
+
+        </ScrollView>
+</RelativeLayout>

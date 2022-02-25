@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_visitor"
+        android:backgroundTint="#95B9C7"
+        android:padding="8dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request for Help"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myfamilycard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/myfamily_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="My Family"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myfloorcard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_toRightOf="@id/myfamilycard"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/myfloor_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="My Floor"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myblockcard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_toRightOf="@id/myfloorcard"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/myblock_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="My Block"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/societycard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_toRightOf="@id/myblockcard"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/society_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="Society"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/committecard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_below="@+id/myfloorcard"
+            android:layout_toRightOf="@id/myfamilycard"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/committe_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="Committee"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/gatekeepercard"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_toRightOf="@id/myfloorcard"
+            android:layout_below="@id/myblockcard"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:backgroundTint="#454545"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gatekeeper_logo_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/_100sdp"
+                android:src="@drawable/medical_emergency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/_48sdp"
+                android:gravity="center"
+                android:text="Gatekeeper"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/addmessagecard"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/white"
+            android:layout_below="@id/committecard"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:hint="Add message"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sos_photo_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_below="@id/addmessagecard"
+            app:cardElevation="@dimen/_5sdp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/add_photo"
+                android:layout_gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/send_sos1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sos_photo_add"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="SEND SOS"
+            android:textColor="@color/profile" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

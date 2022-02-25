@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyVisitorPage">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutmain">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_search"
+            android:layout_width="match_parent"
+            android:background="@color/profile"
+            app:titleTextColor="@color/white"
+            android:layout_height="?attr/actionBarSize" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+     <ScrollView
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:id="@+id/scrollView">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_520sdp"
+            android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        app:civ_border_color="#FF000000"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/dailypagecard"
+        android:layout_height="@dimen/_330sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_below="@id/profile_image">
+
+
+        <EditText
+            android:id="@+id/Name_visitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:inputType="text"
+            android:hint="Daily Visitor Name *"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:hint="Mobile Number *"
+            android:inputType="number"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:drawableStart="@drawable/ic_baseline_contact_phone_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/validdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valid Date"
+            android:focusable="false"
+            android:inputType="datetime"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/vehicle_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle No."
+            android:layout_marginTop="@dimen/_115sdp"
+            android:drawableStart="@drawable/ic_baseline_directions_car_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/selectintime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_145sdp"
+            android:ems="1"
+            android:inputType="none"
+            android:focusable="false"
+            android:textColor="@color/black"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableStart="@drawable/ic_baseline_call_received_24"
+            android:hint="Enter in Time" />
+
+        <EditText
+            android:id="@+id/selectouttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:ems="1"
+            android:focusable="false"
+            android:inputType="none"
+            android:textColor="@color/black"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableStart="@drawable/ic_baseline_call_made_24"
+            android:hint="Enter out Time" />
+
+        <EditText
+            android:id="@+id/selectvisitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Person Company Identitiy"
+            android:layout_marginTop="@dimen/_215sdp"
+            android:drawableStart="@drawable/ic_baseline_apartment_24"
+            android:drawablePadding="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_250sdp"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Week Days *"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/sun"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textIsSelectable="true"
+                android:background="@drawable/background_visitor"
+                android:paddingTop="@dimen/_2sdp"
+                android:text="SUN"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/mon"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="MON"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/sun"
+                android:layout_marginLeft="@dimen/_7sdp"/>
+
+
+
+            <TextView
+                android:id="@+id/tue"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="TUE"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/mon"
+                android:layout_marginLeft="@dimen/_7sdp"/>
+
+
+            <TextView
+                android:id="@+id/wed"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="WED"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/tue"
+                android:layout_marginLeft="@dimen/_7sdp"/>
+
+
+            <TextView
+                android:id="@+id/thu"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="THU"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_below="@id/sun"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/fri"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="FRI"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/thu"
+                android:layout_below="@id/mon"
+                android:layout_marginLeft="@dimen/_7sdp"/>
+
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="SAT"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:textAlignment="center"
+                android:background="@drawable/background_visitor"
+                android:textColor="@color/black"
+                android:layout_below="@id/tue"
+                android:layout_toRightOf="@id/fri"
+                android:layout_marginLeft="@dimen/_7sdp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/Add_button"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dailypagecard"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:background="@drawable/background_visitor"
+        android:backgroundTint="@color/colorPrimary1"/>
+
+        </RelativeLayout>
+
+     </ScrollView>
+</RelativeLayout>

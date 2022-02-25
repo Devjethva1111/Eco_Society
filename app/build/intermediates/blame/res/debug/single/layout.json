@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\parking_spinner_items.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\parking_spinner_items.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_setting.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_autocabvisitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_autocabvisitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\parking_blocks_design.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\parking_blocks_design.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_daily_visitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_daily_visitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_library_facility.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_library_facility.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_pets_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_pets_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_profile_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_my_profile_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_tennis_court.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_tennis_court.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_booking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_my_booking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_classified.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_my_classified.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_myactivities.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_myactivities.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\c1_dialog.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\c1_dialog.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_service_provider_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_service_provider_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_marketplace_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_marketplace_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_bikes_marekt.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_bikes_marekt.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_common_plot.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_common_plot.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_parking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_my_parking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_cars_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_cars_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_game_zone_facilities.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_game_zone_facilities.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_books_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_books_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_parking_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_parking_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_members_parking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_members_parking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bblock.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_bblock.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_my.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_member_visitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_member_visitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_facilities_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_facilities_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_gym_facility.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_gym_facility.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_visitors_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_visitors_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popupview.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\popupview.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_share.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_share.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_mobile_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_mobile_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_sports_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_sports_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tools.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_tools.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sos_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_sos_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\slider_item.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\slider_item.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_add_daily_visitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\content_add_daily_visitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_member_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_member_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ablock.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_ablock.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_emergency_number_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_emergency_number_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_theator.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_theator.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_complaint_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_complaint_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_excepted_visitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_excepted_visitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_visitor_parking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_visitor_parking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_request_parking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_request_parking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_delivervisitor.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_delivervisitor.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_garden_facility.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_garden_facility.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_contact_team_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_contact_team_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_gallery_card.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_gallery_card.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_timeline.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_timeline.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_auditarium.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_auditarium.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_daily_visitor_page.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_daily_visitor_page.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_complain_add.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_complain_add.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_all_facilities.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_all_facilities.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\c1_dialogbox.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\c1_dialogbox.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_all_classified.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_all_classified.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\member_item_design.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\member_item_design.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_furniture_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_furniture_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_fashion_market.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_add_fashion_market.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_c1_parking.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\activity_c1_parking.xml"
+    },
+    {
+        "merged": "D:\\gtu_project-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_send.xml",
+        "source": "D:\\gtu_project-main\\app\\src\\main\\res\\layout\\fragment_send.xml"
+    }
+]

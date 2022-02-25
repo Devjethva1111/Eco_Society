@@ -1,0 +1,819 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\badb311d7d7cd4e332fc364a72ab16b9\jetified-viewbinding-4.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\3b541ea4bd23b94283308e5e6a7542ef\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b6d5fb0d9acfdf2e9012fbb1e4f9e2bd\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e72108d232b09b174348c206feffd29f\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b626de7b9bdc2c58919b3a7879165db8\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7ef857c0ade8d9cf3d83ec03246a13ef\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c08e6041a648ccebde582af9b5625a21\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\81ba0e4039ea54ec9e3e575d1a2c8f93\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\83c35b6d98217dbca9b1a4a454333992\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8846352e504f224c749e125d9fe944d4\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e19cf2ea52e17ed9ce982f0b76240868\jetified-autoimageslider-1.4.0\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1ab0424bee2f67604944b7c54610cb98\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b9edcffb3d8281a86cecd1483efce4c4\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\433e8127d9230ab493969c9b87365fe9\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\744c9bd7aef566532e776af82a49d734\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c0c5b7f7db628783505dcab85ac5c9b7\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1528f97ba0a1530fe4ef97d6dbfa2094\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\45ba782073a0b020e0d5626eef1ed214\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8bf807d2cfd2aee62c59857e6921d726\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\951857de2db62fcec20ffbad6c480925\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\965a0a72eda6746f67f0838216470806\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\296e251ccf0a0af1567390b76bb95e48\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\55aebd8f0d58df818881882da5545144\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\dc9d4fabbefe7eccc2fe668e5a8d9f0b\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\f36dc4c36a3d8132b9ff0b3d07664859\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6cbf9ca294d6bcd7ab86788cd5df53e1\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\cce8a55de633071d77a8ce0d253cde50\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7df5529f48bc55e82d6eb15b7d38173b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\25e5f7bc3e9e843cd69a9704664d29dc\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6178a57da115ff9b3c1dce2ab05bbfe6\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\783de54a5173a0d66dd5affd15e79e9b\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\41b56c6457c4cf365377532cbbf8651b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\18daa6fba3363860ee11b732c2c625d2\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2bea20f859ac0e4f2eb3bdd95bcf6c5\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a89f0caf44d228c84e701af9e7e96208\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0c4c99973f8fad3f75c6c805135f3db6\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\92599b2a43b1b87aa0c44ece82ca0ec3\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2d8253c7247104a1b2adbcef32ac062\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df7b38b90cf8b915c8bb6ac5ec2f90f8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6fdfedc42a1eda1781536da5d5b06b2d\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\625937b2187319a0215c7a46a4e1bac4\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\db9869e86d193a5f88762ef587353bff\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\de6bd9e59cf12f0a62371d88464d666d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1915190603fd5dbcb0f7cad818a1bb84\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c616a4e668c32d7a64bbf348bca29282\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\279976ae31aa593339fbd5f0634a19f6\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5ccf070a38c0dcadeebf8690beff59c9\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\48e5096f87ddf97386eab293711598f2\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5bc0b19d95d0c296ff426734e56a6a2b\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e9e07f158de474672fa949602ec67930\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df6fc830f1f0f2266a999d82f9803238\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a064d45875237ec6bd862ba0f530b962\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b12514dc2f93ab4d9a3650edc0ebd11a\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+	package
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:1-252:12
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:10:22-62
+application
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:12:5-250:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b6d5fb0d9acfdf2e9012fbb1e4f9e2bd\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b6d5fb0d9acfdf2e9012fbb1e4f9e2bd\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e72108d232b09b174348c206feffd29f\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e72108d232b09b174348c206feffd29f\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c08e6041a648ccebde582af9b5625a21\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c08e6041a648ccebde582af9b5625a21\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8846352e504f224c749e125d9fe944d4\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8846352e504f224c749e125d9fe944d4\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e19cf2ea52e17ed9ce982f0b76240868\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e19cf2ea52e17ed9ce982f0b76240868\jetified-autoimageslider-1.4.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\951857de2db62fcec20ffbad6c480925\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\951857de2db62fcec20ffbad6c480925\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\965a0a72eda6746f67f0838216470806\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\965a0a72eda6746f67f0838216470806\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\55aebd8f0d58df818881882da5545144\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\55aebd8f0d58df818881882da5545144\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\48e5096f87ddf97386eab293711598f2\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\48e5096f87ddf97386eab293711598f2\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.touchizen.drawerwithbottomnavigation.parking.B_BLOCK
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:19:9-23:61
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:23:13-58
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:22:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:20:13-44
+activity#com.touchizen.drawerwithbottomnavigation.parking.A_BLOCK
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:24:9-28:61
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:28:13-58
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:27:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:25:13-44
+activity#com.touchizen.drawerwithbottomnavigation.SettingActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:29:9-34:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:34:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:33:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:32:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:30:13-44
+activity#com.touchizen.drawerwithbottomnavigation.Add_books_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:35:9-40:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:40:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:39:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:38:13-37
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:36:13-45
+activity#com.touchizen.drawerwithbottomnavigation.Add_sports_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:41:9-46:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:46:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:45:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:44:13-39
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:42:13-46
+activity#com.touchizen.drawerwithbottomnavigation.Add_pets_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:47:9-52:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:52:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:51:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:50:13-37
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:48:13-44
+activity#com.touchizen.drawerwithbottomnavigation.Add_fashion_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:53:9-58:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:58:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:57:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:56:13-40
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:54:13-47
+activity#com.touchizen.drawerwithbottomnavigation.Add_bikes_marekt
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:59:9-64:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:64:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:63:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:62:13-38
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:60:13-45
+activity#com.touchizen.drawerwithbottomnavigation.Add_mobile_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:65:9-70:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:70:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:69:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:68:13-39
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:66:13-46
+activity#com.touchizen.drawerwithbottomnavigation.Add_cars_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:71:9-76:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:76:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:75:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:74:13-37
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:72:13-44
+activity#com.touchizen.drawerwithbottomnavigation.Add_furniture_market
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:77:9-82:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:82:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:81:13-66
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:80:13-42
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:78:13-49
+activity#com.touchizen.drawerwithbottomnavigation.Add_tennis_court
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:83:9-88:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:88:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:87:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:86:13-54
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:84:13-45
+activity#com.touchizen.drawerwithbottomnavigation.add_theator_activity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:89:9-94:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:94:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:93:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:92:13-49
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:90:13-49
+activity#com.touchizen.drawerwithbottomnavigation.Add_library_facility
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:95:9-100:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:100:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:99:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:98:13-49
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:96:13-49
+activity#com.touchizen.drawerwithbottomnavigation.Request_Parking
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:101:9-106:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:106:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:105:13-63
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:104:13-44
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:102:13-44
+activity#com.touchizen.drawerwithbottomnavigation.DeliverAddVisitor
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:107:9-112:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:112:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:111:13-63
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:110:13-49
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:108:13-46
+activity#com.touchizen.drawerwithbottomnavigation.Autocabvisitor
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:113:9-118:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:118:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:117:13-63
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:116:13-44
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:115:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:114:13-43
+activity#com.touchizen.drawerwithbottomnavigation.ExceptedVisitor
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:119:9-124:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:124:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:123:13-63
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:122:13-45
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:120:13-44
+activity#com.touchizen.drawerwithbottomnavigation.DailyVisitorPage
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:125:9-130:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:130:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:129:13-63
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:128:13-45
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:126:13-45
+activity#com.touchizen.drawerwithbottomnavigation.add_common_plot
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:131:9-136:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:136:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:135:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:134:13-52
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:132:13-44
+activity#com.touchizen.drawerwithbottomnavigation.add_game_zone_facilities
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:137:9-142:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:142:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:141:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:140:13-50
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:138:13-53
+activity#com.touchizen.drawerwithbottomnavigation.add_auditarium
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:143:9-148:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:148:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:147:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:146:13-52
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:145:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:144:13-43
+activity#com.touchizen.drawerwithbottomnavigation.add_gym_facility
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:149:9-154:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:154:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:153:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:152:13-45
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:150:13-45
+activity#com.touchizen.drawerwithbottomnavigation.add_garden_facility
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:155:9-160:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:160:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:159:13-65
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:158:13-48
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:156:13-48
+activity#com.touchizen.drawerwithbottomnavigation.Complain_add
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:161:9-166:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:166:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:165:13-64
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:164:13-41
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:162:13-41
+activity#com.touchizen.drawerwithbottomnavigation.ContactTeamCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:167:9-172:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:172:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:171:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:170:13-41
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:169:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:168:13-52
+activity#com.touchizen.drawerwithbottomnavigation.GalleryCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:173:9-178:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:178:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:177:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:176:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:175:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:174:13-48
+activity#com.touchizen.drawerwithbottomnavigation.MyProfileCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:179:9-184:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:184:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:183:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:182:13-39
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:181:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:180:13-50
+activity#com.touchizen.drawerwithbottomnavigation.MarketplaceCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:185:9-190:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:190:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:189:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:188:13-41
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:187:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:186:13-52
+activity#com.touchizen.drawerwithbottomnavigation.SosCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:191:9-196:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:196:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:195:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:194:13-32
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:192:13-44
+activity#com.touchizen.drawerwithbottomnavigation.ServiceProviderCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:197:9-202:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:202:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:201:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:200:13-45
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:199:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:198:13-56
+activity#com.touchizen.drawerwithbottomnavigation.EmergencyNumberCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:203:9-208:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:208:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:207:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:206:13-46
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:205:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:204:13-56
+activity#com.touchizen.drawerwithbottomnavigation.FacilitiesCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:209:9-214:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:214:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:213:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:212:13-39
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:211:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:210:13-51
+activity#com.touchizen.drawerwithbottomnavigation.ComplaintCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:215:9-220:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:220:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:219:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:218:13-39
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:217:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:216:13-50
+activity#com.touchizen.drawerwithbottomnavigation.ParkingCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:221:9-226:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:226:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:225:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:224:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:223:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:222:13-48
+activity#com.touchizen.drawerwithbottomnavigation.VisitorsCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:227:9-232:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:232:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:231:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:230:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:229:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:228:13-49
+activity#com.touchizen.drawerwithbottomnavigation.MemberCardActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:233:9-238:52
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:238:13-49
+	android:parentActivityName
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:237:13-55
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:236:13-36
+	android:exported
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:235:13-37
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:234:13-47
+activity#com.touchizen.drawerwithbottomnavigation.MainActivity
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:239:9-249:20
+	android:screenOrientation
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:242:13-49
+	android:label
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:241:13-45
+	android:theme
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:243:13-56
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:240:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:244:13-248:29
+action#android.intent.action.MAIN
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:245:17-69
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:245:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:247:17-77
+	android:name
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml:247:27-74
+uses-sdk
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\badb311d7d7cd4e332fc364a72ab16b9\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\badb311d7d7cd4e332fc364a72ab16b9\jetified-viewbinding-4.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\3b541ea4bd23b94283308e5e6a7542ef\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\3b541ea4bd23b94283308e5e6a7542ef\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b6d5fb0d9acfdf2e9012fbb1e4f9e2bd\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b6d5fb0d9acfdf2e9012fbb1e4f9e2bd\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e72108d232b09b174348c206feffd29f\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e72108d232b09b174348c206feffd29f\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b626de7b9bdc2c58919b3a7879165db8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b626de7b9bdc2c58919b3a7879165db8\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7ef857c0ade8d9cf3d83ec03246a13ef\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7ef857c0ade8d9cf3d83ec03246a13ef\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c08e6041a648ccebde582af9b5625a21\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c08e6041a648ccebde582af9b5625a21\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\81ba0e4039ea54ec9e3e575d1a2c8f93\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\81ba0e4039ea54ec9e3e575d1a2c8f93\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\83c35b6d98217dbca9b1a4a454333992\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\83c35b6d98217dbca9b1a4a454333992\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8846352e504f224c749e125d9fe944d4\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8846352e504f224c749e125d9fe944d4\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e19cf2ea52e17ed9ce982f0b76240868\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e19cf2ea52e17ed9ce982f0b76240868\jetified-autoimageslider-1.4.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1ab0424bee2f67604944b7c54610cb98\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1ab0424bee2f67604944b7c54610cb98\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b9edcffb3d8281a86cecd1483efce4c4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b9edcffb3d8281a86cecd1483efce4c4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\433e8127d9230ab493969c9b87365fe9\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\433e8127d9230ab493969c9b87365fe9\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\744c9bd7aef566532e776af82a49d734\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\744c9bd7aef566532e776af82a49d734\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c0c5b7f7db628783505dcab85ac5c9b7\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c0c5b7f7db628783505dcab85ac5c9b7\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1528f97ba0a1530fe4ef97d6dbfa2094\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1528f97ba0a1530fe4ef97d6dbfa2094\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\45ba782073a0b020e0d5626eef1ed214\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\45ba782073a0b020e0d5626eef1ed214\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8bf807d2cfd2aee62c59857e6921d726\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\8bf807d2cfd2aee62c59857e6921d726\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\951857de2db62fcec20ffbad6c480925\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\951857de2db62fcec20ffbad6c480925\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\965a0a72eda6746f67f0838216470806\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\965a0a72eda6746f67f0838216470806\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\296e251ccf0a0af1567390b76bb95e48\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\296e251ccf0a0af1567390b76bb95e48\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\55aebd8f0d58df818881882da5545144\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\55aebd8f0d58df818881882da5545144\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\dc9d4fabbefe7eccc2fe668e5a8d9f0b\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\dc9d4fabbefe7eccc2fe668e5a8d9f0b\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\f36dc4c36a3d8132b9ff0b3d07664859\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\f36dc4c36a3d8132b9ff0b3d07664859\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6cbf9ca294d6bcd7ab86788cd5df53e1\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6cbf9ca294d6bcd7ab86788cd5df53e1\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\cce8a55de633071d77a8ce0d253cde50\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\cce8a55de633071d77a8ce0d253cde50\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7df5529f48bc55e82d6eb15b7d38173b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\7df5529f48bc55e82d6eb15b7d38173b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\25e5f7bc3e9e843cd69a9704664d29dc\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\25e5f7bc3e9e843cd69a9704664d29dc\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6178a57da115ff9b3c1dce2ab05bbfe6\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6178a57da115ff9b3c1dce2ab05bbfe6\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\783de54a5173a0d66dd5affd15e79e9b\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\783de54a5173a0d66dd5affd15e79e9b\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\41b56c6457c4cf365377532cbbf8651b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\41b56c6457c4cf365377532cbbf8651b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\18daa6fba3363860ee11b732c2c625d2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\18daa6fba3363860ee11b732c2c625d2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2bea20f859ac0e4f2eb3bdd95bcf6c5\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2bea20f859ac0e4f2eb3bdd95bcf6c5\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a89f0caf44d228c84e701af9e7e96208\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a89f0caf44d228c84e701af9e7e96208\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0c4c99973f8fad3f75c6c805135f3db6\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0c4c99973f8fad3f75c6c805135f3db6\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\92599b2a43b1b87aa0c44ece82ca0ec3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\92599b2a43b1b87aa0c44ece82ca0ec3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2d8253c7247104a1b2adbcef32ac062\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\d2d8253c7247104a1b2adbcef32ac062\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\0cf7cfb8fb10e802917435dd07f91aa7\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df7b38b90cf8b915c8bb6ac5ec2f90f8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df7b38b90cf8b915c8bb6ac5ec2f90f8\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6fdfedc42a1eda1781536da5d5b06b2d\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\6fdfedc42a1eda1781536da5d5b06b2d\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\625937b2187319a0215c7a46a4e1bac4\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\625937b2187319a0215c7a46a4e1bac4\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\db9869e86d193a5f88762ef587353bff\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\db9869e86d193a5f88762ef587353bff\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\de6bd9e59cf12f0a62371d88464d666d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\de6bd9e59cf12f0a62371d88464d666d\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1915190603fd5dbcb0f7cad818a1bb84\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\1915190603fd5dbcb0f7cad818a1bb84\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c616a4e668c32d7a64bbf348bca29282\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c616a4e668c32d7a64bbf348bca29282\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\279976ae31aa593339fbd5f0634a19f6\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\279976ae31aa593339fbd5f0634a19f6\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5ccf070a38c0dcadeebf8690beff59c9\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5ccf070a38c0dcadeebf8690beff59c9\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\48e5096f87ddf97386eab293711598f2\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\48e5096f87ddf97386eab293711598f2\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5bc0b19d95d0c296ff426734e56a6a2b\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\5bc0b19d95d0c296ff426734e56a6a2b\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e9e07f158de474672fa949602ec67930\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\e9e07f158de474672fa949602ec67930\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df6fc830f1f0f2266a999d82f9803238\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\df6fc830f1f0f2266a999d82f9803238\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a064d45875237ec6bd862ba0f530b962\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\a064d45875237ec6bd862ba0f530b962\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b12514dc2f93ab4d9a3650edc0ebd11a\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b12514dc2f93ab4d9a3650edc0ebd11a\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		ADDED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+		INJECTED from D:\gtu_project-main\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\366a3917b7e0723dccb800c39baf007a\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\9867cd0762dbe2e42351fa7a57f65a98\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\b0c57d926b7ee495d81ebbbe22a4241f\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\56adc102ac957bb88d92ae0b4205ec4e\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\caa90d846a01f8769401223d21e5c4eb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Hi-Tech\.gradle\caches\transforms-2\files-2.1\c3c8f2f1a21ad9451b8153d0cc1bf641\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

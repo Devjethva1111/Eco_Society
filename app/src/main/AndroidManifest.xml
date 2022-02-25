@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.touchizen.drawerwithbottomnavigation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".parking.B_BLOCK"
+            android:exported="false"
+            android:label="A Block"
+            android:parentActivityName=".Request_Parking" />
+        <activity
+            android:name=".parking.A_BLOCK"
+            android:exported="false"
+            android:label="B Block"
+            android:parentActivityName=".Request_Parking" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:label="Setting"
+            android:parentActivityName=".ContactTeamCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_books_market"
+            android:exported="false"
+            android:label="Add Book"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_sports_market"
+            android:exported="false"
+            android:label="Add Sports"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_pets_market"
+            android:exported="false"
+            android:label="Add Pets"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_fashion_market"
+            android:exported="false"
+            android:label="Add Fashion"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_bikes_marekt"
+            android:exported="false"
+            android:label="Add Bikes"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_mobile_market"
+            android:exported="false"
+            android:label="Add Mobile"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_cars_market"
+            android:exported="false"
+            android:label="Add Cars"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_furniture_market"
+            android:exported="false"
+            android:label="Add Furniture"
+            android:parentActivityName=".MarketplaceCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_tennis_court"
+            android:exported="false"
+            android:label="Add Tennis Court facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_theator_activity"
+            android:exported="false"
+            android:label="Add Theator facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Add_library_facility"
+            android:exported="false"
+            android:label="Add Library facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Request_Parking"
+            android:exported="false"
+            android:label="Request Parking"
+            android:parentActivityName=".VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeliverAddVisitor"
+            android:exported="false"
+            android:label="Delivery Add Visitor"
+            android:parentActivityName=".VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Autocabvisitor"
+            android:exported="false"
+            android:label="Autocab Visitor"
+            android:parentActivityName=".VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExceptedVisitor"
+            android:exported="false"
+            android:label="Expected Visitor"
+            android:parentActivityName=".VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DailyVisitorPage"
+            android:exported="false"
+            android:label="Expected Visitor"
+            android:parentActivityName=".VisitorsCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_common_plot"
+            android:exported="false"
+            android:label="Add CommonPlot facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_game_zone_facilities"
+            android:exported="false"
+            android:label="Add GameZone facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_auditarium"
+            android:exported="false"
+            android:label="Add Auditorium facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_gym_facility"
+            android:exported="false"
+            android:label="Add GYM facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_garden_facility"
+            android:exported="false"
+            android:label="Add Garden facility"
+            android:parentActivityName=".FacilitiesCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Complain_add"
+            android:exported="false"
+            android:label="Complain Add"
+            android:parentActivityName=".ComplaintCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactTeamCardActivity"
+            android:exported="false"
+            android:label="Contact Team"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GalleryCardActivity"
+            android:exported="false"
+            android:label="Gallary"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyProfileCardActivity"
+            android:exported="false"
+            android:label="My Profile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MarketplaceCardActivity"
+            android:exported="false"
+            android:label="Market Place"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SosCardActivity"
+            android:exported="false"
+            android:label="SOS"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ServiceProviderCardActivity"
+            android:exported="false"
+            android:label="Service Provider"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmergencyNumberCardActivity"
+            android:exported="false"
+            android:label="Emergency Numbers"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FacilitiesCardActivity"
+            android:exported="false"
+            android:label="Facilities"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ComplaintCardActivity"
+            android:exported="false"
+            android:label="Complaints"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ParkingCardActivity"
+            android:exported="false"
+            android:label="Parking"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VisitorsCardActivity"
+            android:exported="false"
+            android:label="Visitor"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MemberCardActivity"
+            android:exported="false"
+            android:label="Members"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
